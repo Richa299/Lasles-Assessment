@@ -1,0 +1,73 @@
+.Footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer-left{
+    width:20rem;
+}
+.footer-left img{
+    width:7rem;
+}
+.social-media-icons img{
+    width:2rem;
+    margin-right: 2rem;
+}
+.footer-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4rem;
+}
+li{
+    list-style: none;
+    font-size: 0.7rem;
+    margin-top: 0.3rem;
+    color: #4F5665;
+}
+.product, .engage, .earn-money{
+    width:10rem;
+    height:20rem;
+}
+.footer-right p{
+    margin-left: 2rem;
+    margin-top: 5rem;
+}
+
+
+/* Media queries for responsiveness */
+
+@media screen and (min-width: 1033px ) and (max-width: 1125px ) {
+    .social-media-icons img{
+        margin-right: 0.5rem;
+        width:1rem;
+    }
+    
+}
+
+@media screen and (min-width: 603px ) and (max-width: 1033px ) {
+    .social-media-icons img{
+        margin-right: 0.5rem;
+        width:0.9rem;
+    }
+    .footer-right{
+        width:20rem;
+    }
+}
+
+
+@media screen and (min-width: 500px ) and (max-width: 603px ) {
+    .social-media-icons img{
+        margin-right: 0.5rem;
+        width:0.9rem;
+    }
+    .footer-right{
+        width:20rem;
+    }
+    .footer-left{
+        margin-right: -5rem;
+    }
+    
+}

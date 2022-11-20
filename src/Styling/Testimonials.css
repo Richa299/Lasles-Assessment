@@ -1,0 +1,46 @@
+.Testimonials{
+    align-items: center;
+    text-align: center;
+}
+.test-sub-part{
+    font-size: 0.7rem;
+    color:#4F5665;
+}
+.test-heading h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #0B132A;
+}
+.items-scroll:first-child{
+  width:1.9rem;
+  height: 0.6rem;
+  background-color:#F53838;
+  border-radius: 2rem;
+  margin-top: 1rem;
+}
+.items-scroll{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.arrows span:nth-child(2){
+margin-left: 5rem;
+}
+.dots {
+    color:#DDE0E4;
+    
+}
+.left-right{
+    margin-right: 7rem;
+    color:#F53838;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.left-right:hover{
+    cursor: pointer;
+}
+.left-right span{
+    margin-right: 1rem;
+}

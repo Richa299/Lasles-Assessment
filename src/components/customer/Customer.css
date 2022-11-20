@@ -1,0 +1,122 @@
+.customer-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.customer{
+    width:17rem;
+    height:8rem;
+    padding: 0.3rem;
+    border: 0.939651px solid #DDDDDD;
+    border-radius: 0.5rem;
+    margin-right: 2.5rem;
+}
+.customer:hover{
+    border: 0.939651px solid #F53838;
+}
+.comments{
+    font-size: 0.6rem;
+    color: #0B132A;
+    text-align: center;
+    margin: auto;
+}
+.customer img{
+    width:2rem;
+}
+.profile-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.customer-name{
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-left: 0.5rem;
+    margin-right: 4rem;
+}
+.customer-city{
+    font-size: 0.7rem;
+    color: #4F5665;
+    margin-top: 0;
+    margin-left: 0.5rem;
+}
+.star{
+    color: orangered;
+    font-size: 0.7rem;
+}
+.star span{
+    color: black;
+    font-size: 0.8rem;
+    margin-right: 0.3rem;
+}
+
+.arrows{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Media queries for responsiveness */
+
+
+@media screen and (min-width: 1378px) and (max-width: 1499px) {
+    .customer-name{
+        margin-right: 2rem;
+    }
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 1378px) {
+    .customer-name{
+        margin-right: 1.5rem;
+        font-size: 0.7rem;
+    }
+    .customer-city{
+        font-size: 0.5rem;
+    }
+    .customer{
+        margin-right: 1rem;
+    }
+}
+
+
+@media screen and (min-width: 1000px) and (max-width: 1199px) {
+    .customer-name{
+        margin-right: 0.8rem;
+    }
+    .customer{
+        margin-right: 0.5rem;
+    }
+}
+
+
+@media screen and (min-width: 650px) and (max-width: 1000px) {
+    .customer-name{
+        margin-right: 0.5rem;
+    }
+    .customer{
+        margin-right: 0.5rem;
+        height: 10rem;
+    }
+    .customer img{
+        width:1.4rem;
+    }
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 650px) {
+    .customer-name{
+        margin-right: 0.5rem;
+    }
+    .customer{
+        margin-right: 0.5rem;
+        height: 12rem;
+    }
+    .customer img{
+        width:1.4rem;
+    }
+}
+

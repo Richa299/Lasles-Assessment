@@ -1,0 +1,112 @@
+.Subscribe{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 7rem;
+    margin-right: 12rem;
+    background-color: white;
+    margin-top: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+}
+.subscribe-button{
+    border-radius: 0.4rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-weight: 600;
+    font-size: 0.7rem;
+    margin-left: 1.5rem;
+    width:9.3rem;
+    height: 2.3rem;
+    border: 1px solid transparent;
+    margin: 0;
+    background: #F53838;
+    color: white;
+}
+.subscription h3{
+    width:19rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #0B132A;
+}
+.subscription p{
+    font-size: 0.7rem;
+    color:#4F5665;
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+}
+
+/* Media queries for responsiveness */
+
+
+@media screen and (min-width: 1200px) and (max-width: 1464px) {
+    .Subscribe{
+        margin-right: 4rem;
+    }
+    .subscription h3{
+        width:15rem;
+    }
+}
+
+
+@media screen and (min-width: 1020px) and (max-width: 1200px) {
+    .Subscribe{
+        margin-right: 2rem;
+    }
+    .subscription h3{
+        width:15rem;
+    }
+}
+
+
+@media screen and (min-width: 892px) and (max-width: 1020px) {
+    .Subscribe{
+        margin-right: 2rem;
+        margin-left: 4rem;
+    }
+    .subscription h3{
+        width:15rem;
+    }
+}
+
+
+@media screen and (min-width: 664px) and (max-width: 892px) {
+    .Subscribe{
+        margin-right: 1rem;
+        margin-left: 3rem;
+    }
+    .subscription h3{
+        width:15rem;
+    }
+    .subscribe-button-part{
+        width:10rem;
+    }
+}
+
+
+@media screen and (min-width: 622px) and (max-width: 664px) {
+    .Subscribe{
+        margin-right: 1rem;
+        margin-left: 2rem;
+    }
+    .subscription h3{
+        width:15rem;
+    }
+    .subscribe-button-part{
+        width:20rem;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 622px){
+    .Subscribe{
+        margin-right: 0rem;
+        margin-left: 0rem;
+    }
+    .subscription h3{
+        width:12rem;
+        font-size: 1.2rem;
+    }
+
+    
+}

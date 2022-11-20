@@ -1,0 +1,60 @@
+.card-price-section p :first-child{
+    color: green;
+    margin-right: 0.5rem;
+    font-size: 0.8rem;
+}
+.card-button{
+    border-radius: 2rem;
+    font-family: Rubik;
+    font-size: 0.7rem;
+    /* margin-left: 1.5rem; */
+    width:7rem;
+    color: #F53838;
+    height: 1.6rem;
+    font-weight: 700;
+    cursor: pointer;
+    border: 0.939651px solid #F53838;
+}
+.card-button:hover{
+    background-color: #F53838;
+    color: white;
+}
+.card-price-section p{
+    font-size: 0.7rem;
+    color:#4F5665;
+}
+.card-price-button{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-price-button-5{
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-price-button-6{
+    margin-top: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.per-month{
+    color:#4F5665;
+}
+.price{
+    color: #0B132A;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 596px ) {
+    .card-price-section p{
+        font-size: 0.5rem;
+    }
+    
+}

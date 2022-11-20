@@ -1,0 +1,149 @@
+.navbar{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navbar img{
+    width:6rem;
+    height:6rem;
+}
+.navbar-items ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2rem;
+    font-size: 0.9rem;
+    color: #4F5665;
+    font-family: Rubik;
+    font-weight: 500;
+    letter-spacing: 0em;
+
+}
+.signin-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    margin-left: 2rem;
+    color: black;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+    font-family: Rubik;
+}
+.signin-section p:hover{
+cursor: pointer;
+}
+.signup{
+    border-radius: 2rem;
+    font-family: Rubik;
+    font-size: 0.8rem;
+    margin-left: 1.5rem;
+    width:6rem;
+    font-weight: 600;
+    height: 2rem;
+    border: 0.469826px solid #F53855;
+    color: #F53855;
+    background-color: white;
+}
+.signup:hover{
+    cursor: pointer;
+}
+
+/* Media queries for responsiveness */
+
+
+@media screen and (min-width: 943px) and (max-width: 1023px) {
+    .navbar-items ul{
+        gap: 1rem;
+    }   
+}
+
+@media screen and (min-width: 900px) and (max-width: 911px) {
+    .navbar-items ul{
+        gap: 1rem;
+    }
+    .signup{
+        width: 4rem;
+        height: 2rem;
+    } 
+}
+
+
+@media screen and (min-width: 863px) and (max-width: 943px) {
+    .navbar-items ul{
+        gap: 0.6rem;
+    }
+    
+}
+
+
+@media screen and (min-width: 659px) and (max-width: 863px) {
+    .navbar-items ul{
+        gap: 0.6rem;
+    } 
+    .signin-section{
+        margin-left: 1rem;
+    }
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 659px) {
+    .navbar-items ul{
+        gap: 0.7rem;
+    } 
+    .signup{
+        margin-left: 0.7rem;
+        width: 3rem;
+        height: 1rem;
+        font-size: 0.5rem;
+    }
+    .signin-section{
+        margin-left: 0.8rem;
+        font-size: 0.55rem;
+    }
+
+    .navbar img{
+        margin-left: -3rem;
+    }
+}
+
+
+@media screen and (min-width: 1375px) and (max-width: 1480px) {
+    .navbar{
+        margin-left: 15rem;
+        margin-right: 15rem;
+    }
+    .navbar-items ul{
+        margin-left: 2rem;
+    }
+    .signin-section p{
+        width:3rem;
+    }
+}
+
+
+@media screen and (min-width: 1100px) and (max-width: 1375px) {
+    .navbar{
+        margin-left: 25rem;
+        margin-right: 25rem;
+    }
+    .navbar-items ul{
+        margin-left: 2rem;
+    }
+    .signin-section p{
+        width:3rem;
+
+    }
+    
+    .signin{
+        margin-left: -2rem;
+    }
+    .navbar-items{
+        margin: 0;
+    }
+}
+
